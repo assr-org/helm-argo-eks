@@ -1,4 +1,4 @@
-replicaCount: 4
+replicaCount: 0
 
 image:
   repository: achin16/kubernetes-argo-eks
