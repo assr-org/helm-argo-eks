@@ -1,0 +1,5 @@
+Your app {{ .Chart.Name }} has been deployed.
+
+Check status with:
+  kubectl get pods -l app={{ .Chart.Name }}
+  kubectl get svc {{ .Chart.Name }}-svc
